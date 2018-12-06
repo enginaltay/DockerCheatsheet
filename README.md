@@ -1,1 +1,1 @@
-# Beginner to Advanced Docker Commands inluding Docker Swarm! 
+# Beginner to Advanced Docker Commands including Docker Swarm! 
