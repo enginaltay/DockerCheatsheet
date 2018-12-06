@@ -1,2 +1,1 @@
-# Docker Swarm Mode
-Docker Swarm service deployment 
+# Beginner to Advanced Docker Commands inluding Docker Swarm! 
