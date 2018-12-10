@@ -13,3 +13,17 @@ Starting or stopping specific docker containers. We can even schedule it by writ
 If you wonder how much cpu your container consumes, you can easily view it by typing
 
 ``` docker stats $(docker ps --format '{{.Names}}') ```
+
+### Remove Unused Docker Images 
+
+You can remove unused images with the following oneliner 
+
+``` docker images -q |xargs docker rmi ```
+
+
+### Remove Unused Docker Volumes 
+
+Since the point of volumes is to exist independent from containers, when a container is removed, a volume is not automatically removed at the same time. When a volume exists and is no longer connected to any containers, it's called a dangling volume.
+
+``` docker volume ls -qf dangling=true | xargs docker volume rm ```
+
