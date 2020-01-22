@@ -1,4 +1,4 @@
-# Advanced Docker Commands including Docker Swarm! 
+# Docker Commands including Docker Swarm
 
 ## 1. Introduction
 ### Control Specific Containers
